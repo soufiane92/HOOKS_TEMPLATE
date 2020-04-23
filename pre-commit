@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "---- LOCAL: pre-commit hook"
+echo "Params: No params"
+echo "return 0 for ok else ko"

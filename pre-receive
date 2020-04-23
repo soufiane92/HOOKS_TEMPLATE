@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "---- REMOTE: pre-receive hook"
+echo "Params: "
+echo "GIT_PUSH_OPTION_COUNT = $GIT_PUSH_OPTION_COUNT"
+echo "return 0 for ok else ko"

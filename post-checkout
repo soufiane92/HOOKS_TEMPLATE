@@ -1,0 +1,11 @@
+#!/bin/sh
+
+OLD_REF_HEAD=$1
+NEW_REF_HEAD=$2
+IS_CHECKOUT_BRANCH=$3
+
+echo "---- LOCAL: post-checkout hook"
+echo "Params: "
+echo "> OLD_REF_HEAD : $OLD_REF_HEAD"
+echo "> NEW_REF_HEAD : $NEW_REF_HEAD"
+echo "> IS_CHECKOUT_BRANCH : $IS_CHECKOUT_BRANCH"

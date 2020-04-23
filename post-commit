@@ -1,0 +1,7 @@
+#!/bin/sh
+
+COMMIT_MSG_FILE=$1
+
+echo "---- LOCAL: post-commit hook"
+echo "Params: "
+echo "> COMMIT_MSG_FILE : $COMMIT_MSG_FILE"

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+REF=$1
+OLD_OBJECT_NAME=$2
+NEW_OBJECT_NAME=$2
+
+echo "---- REMOTE: update hook"
+echo "Params: "
+echo "> REF : $REF"
+echo "> OLD_OBJECT_NAME : $OLD_OBJECT_NAME"
+echo "> NEW_OBJECT_NAME : $NEW_OBJECT_NAME"
+echo "return 0 for ok else ko"

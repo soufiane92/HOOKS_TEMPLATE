@@ -1,0 +1,8 @@
+#!/bin/sh
+
+COMMIT_MSG_FILE=$1
+
+echo "---- LOCAL: commit-msg hook"
+echo "Params: "
+echo "> COMMIT_MSG_FILE : $COMMIT_MSG_FILE"
+echo "return 0 for ok else ko"

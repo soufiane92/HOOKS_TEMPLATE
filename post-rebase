@@ -1,0 +1,9 @@
+#!/bin/sh
+
+FORKED_BRANCH=$1
+REBASED_BRANCH=$2
+
+echo "---- LOCAL: post-rebase hook"
+echo "Params: "
+echo "> FORKED_BRANCH : $FORKED_BRANCH"
+echo "> REBASED_BRANCH : $REBASED_BRANCH"

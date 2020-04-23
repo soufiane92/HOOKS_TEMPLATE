@@ -1,0 +1,15 @@
+#!/bin/sh
+
+COMMIT_MSG_FILE=$1
+COMMIT_SOURCE=$2
+SHA1=$3
+
+echo "---- LOCAL: prepare-commit-msg hook"
+echo "Params: "
+echo "> COMMIT_MSG_FILE: $COMMIT_MSG_FILE"
+echo "> COMMIT_SOURCE: $COMMIT_SOURCE"
+echo "> SHA1: $SHA1"
+echo "return 0 for ok else ko"
+
+
+
