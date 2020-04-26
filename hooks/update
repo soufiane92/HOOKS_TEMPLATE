@@ -2,7 +2,7 @@
 
 REF=$1
 OLD_OBJECT_NAME=$2
-NEW_OBJECT_NAME=$2
+NEW_OBJECT_NAME=$3
 
 echo "---- REMOTE: update hook"
 echo "Params: "
