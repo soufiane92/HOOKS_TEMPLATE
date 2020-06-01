@@ -1,2 +1,2 @@
 # HOOKS_TEMPLATE
-hooks templates for tutorials
+hooks templates for GIT tutorials
